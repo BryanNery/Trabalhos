@@ -1,0 +1,490 @@
+* {
+    margin: 0%;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/** navbar **/
+
+#bar {
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 40px;
+    box-shadow: 0px 2px 15px black;
+    background-color: white;
+    z-index: 99;
+}
+
+#nl {
+    position: absolute;
+    left: 15px;
+    right: 5px;
+    color: rgb(38, 58, 170);
+    font-size: 4ch;
+    font-family:monospace;
+}
+
+.link {
+    position: relative;
+    text-decoration: none;
+    margin: 15px;
+    bottom: 0px;
+    padding: 0px 0px;
+    color: black;
+    font-size: 3ch;
+    padding-top: 0px;
+
+}
+
+#clinks {
+    margin-left: 520px;
+}
+
+#pre {
+    font-size: 6ch;
+}
+
+#cr {
+    text-decoration: none;
+    height: 40px;
+    text-align: center;
+    padding-top: 0px;
+    width: 220px;
+    font-size: 4ch;
+    margin-left: 2px;
+    margin-top: 30px;
+    border: 1px solid rgb(38, 58, 170);
+    border-radius: 5px;
+    background-color: white;
+    color: rgb(38, 58, 170);
+    box-shadow: 10px 10px 15px black;
+    transition-duration: .5s;
+}
+
+#cr:hover {
+    background-color: rgb(38, 58, 170);
+    color: white;
+}
+
+span{
+    color: rgb(38, 58, 170);
+}
+
+#home {
+    height: 700px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+}
+
+#cp {
+    display: flex;
+    flex-direction: column;
+    margin-right: 280px;
+}
+
+
+/** cards **/
+
+.carea {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.ati {
+    padding: 5px;
+    background-color: white;
+    border-radius: 5px;
+    margin-bottom: 70px;
+}
+
+#trabalhos {
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("images/f4.jpg");
+    background-repeat: repeat-x;
+    background-position: center;
+    background-size: contain;
+}
+
+#arte {
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("images/f1.jpg");
+    background-repeat: repeat-x;
+    background-position: center;
+    background-size: contain;
+}
+
+#livros {
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("images/f3.jpg");
+    background-repeat: repeat-x;
+    background-position: center;
+    background-size: contain;
+}
+
+#games {
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("images/f2.jpg");
+    background-repeat: repeat-x;
+    background-position: center;
+    background-size: contain;
+}
+
+#sobre {
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    background-image: url("images/f5.jpg");
+    background-repeat: repeat-x;
+    background-position: center;
+    background-size: contain;
+}
+
+.container {
+    margin: 20px;
+    border-radius: 7%;
+    width: 280px;
+    min-width: 280px;
+    height: 380px;
+    min-height: 380px;
+    float: left;
+    text-align: center;
+    background-color: white;
+    box-shadow: 10px 10px 15px black;
+}
+
+.imgc {
+    margin-top: 88px;
+    width: 160px;
+    height: auto;
+}
+
+.licard {
+    text-decoration: none;
+    width: 300px;
+    height: 350px;
+    padding: 7px;
+    border-radius: 5rem;
+    font-size: 22px;
+    background-color: rgb(38, 58, 170);
+    color: white;
+}
+
+.texcar {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+#iml {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.headm {
+    width: 370px;
+    height: auto;
+    top: 10px;
+}
+
+#areasc {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+}
+
+#tsm {
+    margin: 110px;
+    margin-bottom: 260px;
+}
+
+#jedi {
+    width: 470px;
+    height: auto;
+    animation-name: floating4;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+#rock {
+    width: 80px;
+    height: auto;
+    margin-left: 290px;
+    animation-name: floating3;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+#float1 {
+    animation-name: floating1;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+#float2 {
+    animation-name: floating2;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+#ts {
+    padding: 5px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    margin-top: 140px;
+}
+
+#ftr {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: black;
+    color: white;
+}
+
+#logo {
+    width: 50px;
+    height: auto;
+    margin-top: 20px;
+}
+
+/** social-media **/
+#sicons {
+    margin-top: 50px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+  }
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 15px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-instagram {
+    background: #c53aca;
+    color: white;
+}
+
+.fa-twitter {
+    background: #6192fc;
+    color: white;
+}
+
+.fa-linkedin {
+    background: #254486;
+    color: white;
+}
+
+/** animations **/
+
+@keyframes floating1 {
+    0% { transform: translate(-15px, 0px);}
+    50% { transform: translate(15px, 0px);}
+    100% { transform: translate(-15px, 0px);}
+}
+
+@keyframes floating2 {
+    0% { transform: translate(15px, 0px);}
+    50% { transform: translate(-15px, 0px);}
+    100% { transform: translate(15px, 0px);}
+}
+
+@keyframes floating3 {
+    0% { transform: translate(0px, -200px);}
+    50% { transform: translate(0px, -400px);}
+    100% { transform: translate(0px, -200px);}
+}
+
+@keyframes floating4 {
+    0% { transform: translate(0px, -20px);}
+    50% { transform: translate(0px, -60px);}
+    100% { transform: translate(0px, -20px);}
+}
+
+/** media query**/
+@media (max-width: 991px) {
+    #clinks {
+        display: none;
+    }
+
+    #bar {
+        height: 70px;
+        flex-direction: column;
+    }
+
+
+    #nl {
+        font-size: 7ch;
+        left: 0px;
+        right: 0px;
+        text-align: center;
+    }
+
+    #home {
+        height: fit-content;
+    }
+
+    #trabalhos {
+        height: fit-content;
+        background-repeat: repeat;
+    }
+
+    #arte {
+        height: fit-content;
+        background-repeat: repeat;
+    }
+
+    #livros {
+        height: fit-content;
+        background-repeat: repeat;
+    }
+
+    #games {
+        height: fit-content;
+        background-repeat: repeat;
+    }
+
+    #sobre {
+        height: fit-content;
+        background-repeat: repeat;
+    }
+
+    #cp {
+        margin-right: 0px;
+        margin-top: 30px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #pre {
+        font-size: 5ch;
+        padding: 15px;
+    }
+
+    .carea {
+        width: 100%;
+        justify-content: flex-start;
+        overflow-x: scroll;
+        -webkit-overflow-scrolling: touch;
+        margin-bottom: 30px;
+    }
+
+    #cr {
+        width: 230px;
+        height: 50px;
+        font-size: 40px;
+        margin-top: 20px;
+    }
+
+    #iml {
+        margin-right: 0px;
+        margin-top: 90px;
+    }
+
+    .headm {
+        width: 330px;
+        height: auto;
+        top: 0px;
+    }
+
+    #areasc {
+        flex-direction: column;
+    }
+
+    #jedi {
+        width: 290px;
+    }
+
+    #rock {
+        display: none;
+    }
+
+    .container {
+        float: right;
+    }
+
+    #tsm {
+        margin:0%;
+    }
+
+    .ati {
+        margin-top: 70px;
+    }
+
+    #ts {
+        margin-top: 70px;
+    }
+
+    #sicons {
+        margin-bottom: 40px;
+    }
+
+    /** animation **/
+
+    @keyframes floating4 {
+        0% { transform: translate(0px, -10px);}
+        50% { transform: translate(0px, -40px);}
+        100% { transform: translate(0px, -10px);}
+    }
+}
+
+@media (max-width: 768px) {
+
+    #home {
+        flex-direction: column-reverse;
+        height: fit-content;
+    }
+
+}
