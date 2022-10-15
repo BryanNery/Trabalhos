@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish&family=Roboto:wght@100;300;400;500;700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+   /*  background-color: #facc15; */
+    background: url(../img/aurelien.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+}
+
+.container {
+    padding: 20px 40px;
+    border-radius: 5px;
+    background-color: #1b1b1d7d;
+}
+
+.container h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: bold;
+    color: lightblue;
+}
+
+.container a {
+    text-decoration: none;
+    color: lightblue;
+}
+
+.container p {
+    color: whitesmoke;
+}
+
+.btn {
+    cursor: pointer;
+    display: inline-block;
+    width: 100%;
+    background-color: lightblue;
+    padding: 15px;
+    font-family: inherit;
+    font-size: 16px;
+    border: 0;
+    border-radius: 5px;
+}
+
+.btn:focus {
+    outline: 0;
+}
+
+.btn:active {
+    transform: scale(0.98);
+}
+
+.text {
+    margin-top: 30px;
+}
+
+.form-control {
+    position: relative;
+    margin: 20px 0 40px;
+    width: 300px;
+}
+
+.form-control input {
+    background-color: transparent;
+    border: 0;
+    border-bottom: 2px #fff solid;
+    display: block;
+    width: 100%;
+    padding: 15px 0;
+    font-size: 18px;
+    color: #fff;
+}
+
+.form-control input:focus,
+.form-control input:valid {
+    outline: 0;
+    border-bottom-color: lightblue;
+}
+

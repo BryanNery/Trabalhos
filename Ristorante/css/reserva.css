@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+:root {
+    --black: #333;
+    --white: #fff;
+    --white-menu-hamburger: #eee;
+    --light-color: #facc15;
+    --box-shadow: 0 .5rem 1.5rem rgba(0,0,0,.1);
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    text-transform: capitalize;
+    transition: all .2s linear;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+main {
+    text-align: center;
+    margin-top: 4rem;
+}
+
+h1 {
+    text-align: center;
+    margin: 10px 0 0 0;
+    color: var(--black);
+    font-size: 3.5rem;
+}
+
+.formulario {
+    display: inline-block;
+    width: 70%;
+    margin: 10px 0 0 0;
+    padding: 15px;
+    border: 1px solid rgb(51, 51, 51);
+    border-radius: 5px;
+    text-align: left;
+}
+
+form {
+    padding: 2% 0 0 5%;
+}
+
+form label {
+    font-weight: 300;
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+}
+
+form input {
+    margin: 5px 0 25px 0;
+    padding: 5px;
+    width: 50%;
+    height: 4rem;
+    border: 0.25px solid rgb(51, 51, 51);
+    border-radius: 2px;
+}
+
+form input:hover {
+    border: 1px solid #FACC15;
+}
+
+.dia-reserva {
+    width: 190px;
+}
+
+.num-pessoas {
+    width: 40px;
+    border-radius: 2px;
+    margin: 5px 5px 0 0;
+}
+
+.obs-num-pessoas {
+    font-size: 12px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.btn-enviar {
+    text-align: center;
+}
+
+.btn-fazer-reserva {
+    margin-top: 2rem;
+    margin-right: 2rem;
+    background: #FACC15;
+    font-weight: bold;
+    font-size: 14px;
+    /* margin: 30px 0 0 0; */
+    border-radius: 5px;
+    width: 200px;
+    height: 66px;
+}
+
+.btn-fazer-reserva:hover {
+    background: #ffdc50;
+    border: 1px solid #000000;
+    color: var(--black);
+    font-size: 15px;
+}
+
+.btn-voltar {
+    margin-top: 2rem;
+    background: gray;
+    font-weight: bold;
+    font-size: 14px;
+    color: var(--black);
+    /* margin: 30px 0 0 0; */
+    border-radius: 5px;
+    width: 200px;
+    height: 66px;
+}
+
+.btn-voltar a {
+    color: var(--black);
+    background: gray;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 2rem;
+    width: 4rem;
+}
+
+.btn-voltar:hover {
+    background: rgb(170, 170, 170);
+    border: 1px solid #000000;
+    color: var(--black);
+}
+
+.btn-voltar a:hover {
+    background: rgb(170, 170, 170);
+    font-size: 15px;
+}
+
+
+/** Rodape  **/
+footer {
+    color: white;
+    background: var(--black);
+    margin: 5% 0 0 0;
+}
+
+footer h2, h3 {
+    margin: 0 0 10px 0;
+}
+
+footer p {
+    text-align: center;
+    padding: 2rem;
+}
+
+.rodape-main {
+    width: 80%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+   justify-items: center;
+    justify-content: space-around;
+
+    padding: 20px;
+    margin: 0 auto;
+    font-size: 11px;
+    border-bottom: 1px solid white;
+}
+
+.rodape-sobre {
+    width: 20rem;
+}
+
+.paragrafo_sobre_rodape {
+    padding: .25rem;
+}
+
+.logo-rodape {
+    width: 10rem;
+}
+
+.restaurante-rights {
+    width: 20rem;
+}
+
+.icones-redes {
+    width: 20rem;
+    font-size: 25px;
+}
+
+.icones-redes a i {
+    color: var(--light-color);
+    margin-right: .5rem;
+}
+
